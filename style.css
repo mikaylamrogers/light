@@ -1,0 +1,89 @@
+body {
+    font-size: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    z-index: -1;
+  }
+
+.container-main {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: none;
+    overflow-y: scroll; 
+    overflow: scroll;
+}
+
+h1 {
+    opacity: 15%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    font-style: italic;
+}
+
+#chinese {
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#dutch {
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+#rectangle {
+    background: #db4827;
+    z-index: 1;
+    width: 100%;
+    height: 7%;
+    position: absolute;
+}
+
+iframe {
+    z-index: -1000;
+}
+
+#hk {
+    background-color:#2b2b2e;
+    color:#db4827;
+}
+
+#ams {
+    background-color: #db4827;
+    color: #2b2b2e;
+}
+
+p {
+    padding: 2%;
+}
+
+h2 {
+    opacity: 25%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-size: 60%;
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#hongkong {
+    left: 25%;
+    transform: translate(-50%, 2100%);
+}
+
+#amsterdam {
+    left: 75%;
+    transform: translate(-50%, 2100%);
+}
